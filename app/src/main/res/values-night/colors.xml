@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_color">#A33B1B</color>
+    <color name="dark_theme_color">#A33B1B</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary"     >#448AFF</color>
+    <color name="colorPrimaryDark" >#0D47A1</color>
+    <color name="colorAccent"      >#448AFF</color>
+
+    <color name="textColorPrimary" >@color/white</color>
+    <color name="bgColorPrimary"   >#000000</color>
+
+    <color name="dgrey"            >@color/black</color>
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AirPods</string>
+    <string name="app_description">Designed by HorseFarmer in China, 2021.6.21</string>
+
+    <string name="bg_noti_channel">AirPods 后台通知栏</string>
+    <string name="bg_noti_title">守护运行中</string>
+    <string name="bg_noti_text">Open Setting</string>
+
+    <string name="device_not_support_bt">当前设备不支持蓝牙</string>
+
+    <string name="get_full_background_permission">获取完全后台权限（推荐）</string>
+    <string name="get_full_background_permission_tip">应用信息/耗电管理/打开“允许完全后台行为开关/允许应用自启动/允许应用关联启动”</string>
+
+    <string name="intro_title">当前 App 需要获取相关权限，以便正常使用 AirPods 的功能</string>
+    <string name="intro_allow">允许</string>
+
+    <string name="intro_step">步骤</string>
+    <string name="intro_bat_perm">电池优化权限</string>
+    <string name="intro_loc1_perm">位置权限</string>
+    <string name="intro_loc2_perm">通知权限</string>
+    <string name="intro_loc3_perm">后台权限</string>
+
+    <string name="locationDisabledText">您需要赋予AirPods读取位置的权限</string>
+
+    <string name="supportedDevicesItems">&#8226; AirPods 1代\n&#8226; AirPods 2代\n&#8226; AirPods Pro</string>
+
+    <string name="use_description">AirPods 相关请看通知栏展示</string>
+
+</resources>

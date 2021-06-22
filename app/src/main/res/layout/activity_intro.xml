@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/introImg"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_apple"
+        android:layout_marginBottom="24dp"
+        tools:ignore="ContentDescription" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/introTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/intro_title"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/permsMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/permsBtn"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_allow" />
+
+</LinearLayout>
